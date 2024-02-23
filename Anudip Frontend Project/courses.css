@@ -1,0 +1,90 @@
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+.college-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styling for the college heading */
+.college-heading a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the college details */
+.college-details div {
+    margin-bottom: 10px;
+}
+
+.college-details div span {
+    font-weight: bold;
+}
+
+/* Styling for the college buttons */
+.college-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Styling for the college chips */
+.college-chips ul {
+    list-style: none;
+    padding: 0;
+}
+
+.college-chips li {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.course-img{
+    height: 250px;
+    width: 400px;
+    align-items: center;
+}
+.btn{
+    height: 34px;
+    width: 100px;
+    font-size: 15px;
+    background-color: #007bff;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(58, 10, 189);
+}
